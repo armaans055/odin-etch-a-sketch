@@ -18,8 +18,9 @@ body{
     display: flex;
     flex-shrink: 0;
     flex-wrap: wrap;
-    
-    padding: 10px;
+    border: 7px solid #71697A;
+    border-radius: 8px;
+    padding: 1px;
 }
 
 
