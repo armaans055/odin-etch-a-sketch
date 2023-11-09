@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', sans-serif
+}
+
+body{
+    background-color: #E4BE9E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 640px;
+    width: 640px;
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    
+    padding: 10px;
+}
+
+
