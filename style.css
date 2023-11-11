@@ -23,4 +23,19 @@ body{
     padding: 1px;
 }
 
+.reset{
+    padding-top: .4em;
+    padding-bottom: .4em;
+    padding-left: .8em;
+    padding-right: .8em;
+    background-color: #D0E1D4;
+    border-radius: 8px;
+    border-color: black;
+    font-size: 16px;
+}
+.reset:hover{
+    border-color: grey;
+    background-color: honeydew;
+    transition: .5s;
+}
 

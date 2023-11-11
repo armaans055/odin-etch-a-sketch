@@ -1,4 +1,9 @@
-let resetter = document.querySelector('.reset')
+function reset(){
+    let newDivvs = document.querySelectorAll('.newdiv')
+    newDivvs.forEach((newDivvs) =>{
+        newDivvs.style.background = "white"
+    });
+}
 for(i=0; i<1024; i++){
     let div = document.createElement("div");
     div.className = "newdiv",
@@ -12,12 +17,6 @@ for(i=0; i<1024; i++){
 
     document.querySelector('.container').appendChild(div)
 }
-let divs = document.querySelectorAll('.newdiv')
 
-function reset(){
-    let divs = document.querySelectorAll('.newdiv')
-    divs.style.background= "white"
-}
-
-resetter.addEventListener("click", reset())
-
+let resetter = document.querySelector('.reset')
+resetter.addEventListener("click", reset)
