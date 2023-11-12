@@ -43,14 +43,15 @@ body{
     display:flex;
     gap: 100px;
 }
-.selector{
+button{
     background-color: #D0E1D4;
     border: 3px solid black;
     border-radius: 9px;
+    padding: 1em;
 }
 
 
-.selector:hover{
+button:hover{
     border-color: grey;
     background-color: honeydew;
     transition: .5s;
